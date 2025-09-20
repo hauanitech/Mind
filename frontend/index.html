@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Log</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pop-up">
+      <div class="title-box">
+        <label for="title">title</label><br />
+        <input type="text" name="title" id="messageTitle" />
+      </div>
+
+      <div class="content-box">
+        <label for="content">content</label><br />
+        <input type="text" name="content" id="messageContent" />
+      </div>
+
+
+      <div class="buttons-box" id="createBox">
+        <button id="submit">submit</button>
+        <button class="cancel">cancel</button>
+      </div>
+
+      <div class="buttons-box" id="updateBox">
+        <button id="update">update</button>
+        <button class="cancel">cancel</button>
+      </div>
+
+    </div>
+
+    <h1 id="main-title" class="main-title">MY BLOC NOTE</h1>
+    <div class="message-container" id="messageContainer"></div>
+
+    <button class="create" id="create">Create a message</button>
+    <button class="delete_all" id="vanish">Vanish</button>
+
+    <script src="scripts/script.js" type="module"></script>
+  </body>
+</html>

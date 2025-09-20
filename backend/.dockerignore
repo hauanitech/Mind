@@ -1,0 +1,5 @@
+*.env.production
+.venv
+*.sh
+__pycache__
+*.db
